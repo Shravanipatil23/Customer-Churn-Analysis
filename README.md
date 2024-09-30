@@ -139,4 +139,6 @@ The table gives a brief idea and showcases deep insights of the customers and th
 #### Page 2
 Snapshot: 
 
+<img width="410" alt="Customer analysis" src="https://github.com/user-attachments/assets/9800dc1f-c3b3-44bd-a7c5-f9944a4b4d03">
+
 This Power BI report provides a comprehensive overview of customer information for an online retail store. Through interactive visualizations, key customer demographics such as age, income, and years as a customer are highlighted. The report also explores customer behavior, including total spend, number of purchases, and promotional responses. This data-driven report allows the business to better understand its customer base and identify at-risk customers for targeted retention strategies.
