@@ -1,5 +1,9 @@
 Customer Churn Analysis using 'Random Forest Classifier' Machine learning Algorithm.
-Problem Statement: Online Retail Customer Churn Prediction
+
+
+Problem Statement: Online Retail Customer Churn Prediction.
+
+
 Overview:
 Customer churn is a significant issue for businesses, especially in highly competitive markets like online retail. Understanding why customers leave and predicting which customers are at risk of churning is crucial for implementing retention strategies. This project focuses on developing a predictive model to identify potential customer churn in an online retail business, allowing the company to take proactive measures to retain valuable customers.
 
