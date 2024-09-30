@@ -104,6 +104,8 @@ Step 11 : Loaded the churn_predictions.csv file into Power BI for creating inter
 Two page report was created on Power BI Desktop.
 
 #### Page 1
+Snapshot: 
+<img width="431" alt="Churn_analysis" src="https://github.com/user-attachments/assets/0567e64f-c745-4e2b-a0dc-90b9684ce387">
 Total Number of Customers - 200 Satisfaction Score - 3000
 Predicted Churn By Years joined:
 28.00% customers churned of 6-10 years of joining.
@@ -131,5 +133,8 @@ Age group of '21-40', 52 customers may churn.
 Age group of '41-60', 51 customers may churn.
 Age group of '60 and above', 18 customers may churn.
 The table gives a brief idea and showcases deep insights of the customers and their information which contributes to stastical prediction of the churned customers in the near future.
+
 #### Page 2
+Snapshot: 
+
 This Power BI report provides a comprehensive overview of customer information for an online retail store. Through interactive visualizations, key customer demographics such as age, income, and years as a customer are highlighted. The report also explores customer behavior, including total spend, number of purchases, and promotional responses. This data-driven report allows the business to better understand its customer base and identify at-risk customers for targeted retention strategies.
