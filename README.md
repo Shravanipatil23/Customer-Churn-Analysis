@@ -1,19 +1,19 @@
-Customer Churn Analysis using 'Random Forest Classifier' Machine learning Algorithm.
+# Customer Churn Analysis using 'Random Forest Classifier' Machine learning Algorithm.
 
 
-Problem Statement: Online Retail Customer Churn Prediction.
+## Problem Statement: Online Retail Customer Churn Prediction.
 
 
-Overview:
+## Overview:
 Customer churn is a significant issue for businesses, especially in highly competitive markets like online retail. Understanding why customers leave and predicting which customers are at risk of churning is crucial for implementing retention strategies. This project focuses on developing a predictive model to identify potential customer churn in an online retail business, allowing the company to take proactive measures to retain valuable customers.
 
-Objective:
+### Objective:
 The goal of this project is to build a machine learning model that predicts whether a customer will churn (i.e., stop purchasing) based on historical retail data. The model will help the business understand churn patterns and take data-driven actions to reduce customer attrition.
 
-Dataset:
+### Dataset:
 The dataset contains information about online retail customers, including their purchase history, demographics, and engagement metrics. Each record represents a customer, and the target variable is whether the customer has churned.
 
-Key Features:
+### Key Features:
 Customer ID: Unique identifier for each customer.
 Age: The age of the customer.
 Annual Income: The customer’s yearly income.
@@ -23,8 +23,9 @@ Years as Customer: Duration (in years) that the customer has been with the compa
 Promotion Response: Whether the customer responded to promotional offers.
 Satisfaction Score: Customer satisfaction score based on surveys.
 Churn: The target variable indicating whether the customer has churned (1) or not (0).
-Approach:
-Data Preprocessing:
+
+### Approach:
+#### Data Preprocessing:
 
 Handle missing values and clean the dataset.
 Feature engineering, including encoding categorical variables and scaling numerical data.
@@ -46,7 +47,7 @@ A machine learning model that predicts customer churn with high accuracy. The bu
 
 This problem statement will help potential collaborators or users understand the purpose of your project and how they can replicate or extend it. Let me know if you'd like to add anything else!
 
-Steps followed
+#### Steps followed
 Step 1 : Imported pandas, matplotlib and seaborn. Used pandas to load the dataset into a DataFrame. Data was a csv file. Inspected the data using functions head(), info(), and describe() to understand its structure and get an overview of the features available for analysis.
 
 Step 2 : Checked for missing values by using function isnull().sum(). There were no missing values, the sum returned was 0 for all the columns of the table.
@@ -99,10 +100,10 @@ Step 10 : Prepared the predictions for export to CSV. Saved the dataset with pre
 
 Step 11 : Loaded the churn_predictions.csv file into Power BI for creating interactive visualizations.
 
-Insights:
+### Insights:
 Two page report was created on Power BI Desktop.
 
-Page 1
+#### Page 1
 Total Number of Customers - 200 Satisfaction Score - 3000
 Predicted Churn By Years joined:
 28.00% customers churned of 6-10 years of joining.
@@ -130,5 +131,5 @@ Age group of '21-40', 52 customers may churn.
 Age group of '41-60', 51 customers may churn.
 Age group of '60 and above', 18 customers may churn.
 The table gives a brief idea and showcases deep insights of the customers and their information which contributes to stastical prediction of the churned customers in the near future.
-Page 2
-This Power BI report provides a comprehensive overview of customer information for an online retail store. Through interactive visualizations, key customer demographics such as age, income, and years as a customer are highlighted. The report also explores customer behavior, including total spend, number of purchases, and promotional responses. This data-driven report allows the business to better understand its customer base and identify at-risk customers for targeted retention strategies.# Customer-Churn-Analysis
+#### Page 2
+This Power BI report provides a comprehensive overview of customer information for an online retail store. Through interactive visualizations, key customer demographics such as age, income, and years as a customer are highlighted. The report also explores customer behavior, including total spend, number of purchases, and promotional responses. This data-driven report allows the business to better understand its customer base and identify at-risk customers for targeted retention strategies.
