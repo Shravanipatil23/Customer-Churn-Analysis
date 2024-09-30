@@ -105,7 +105,9 @@ Two page report was created on Power BI Desktop.
 
 #### Page 1
 Snapshot: 
+
 <img width="431" alt="Churn_analysis" src="https://github.com/user-attachments/assets/0567e64f-c745-4e2b-a0dc-90b9684ce387">
+
 Total Number of Customers - 200 Satisfaction Score - 3000
 Predicted Churn By Years joined:
 28.00% customers churned of 6-10 years of joining.
