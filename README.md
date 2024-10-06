@@ -108,17 +108,17 @@ Snapshot:
 
 <img width="431" alt="Churn_analysis" src="https://github.com/user-attachments/assets/0567e64f-c745-4e2b-a0dc-90b9684ce387">
 
-Total Number of Customers - 200 Satisfaction Score - 3000
-Predicted Churn By Years joined:
+- Total Number of Customers - 200 Satisfaction Score - 3000
+- Predicted Churn By Years joined:
 28.00% customers churned of 6-10 years of joining.
 27.00% customers churned of 1-5 years of joining.
 23.00% customers churned of 11-15 years of joining.
 22.00% customers churned of 16-20 years of joining.
-Promotion Response:
+- Promotion Response:
 361 (36.1%) of customers Unsubscribed.
 338 (33.8%) of customers Responded.
 301 (30.1%) of customers Ignored.
-Predicted Churn by Income Group:
+- Predicted Churn by Income Group:
 55 (27.5%) of Predicted Chruned customers belonged to 1.5L to 2L.
 55 (27.5%) of Predicted Chruned customers belonged to 1L to 1.5L.
 50 (25%) of Predicted Chruned customers belonged to 50K to 1L.
@@ -127,9 +127,9 @@ Customer Id by Gender and Predicted Churn:
 61.76% of females will be churned.
 77.94% of other gender will be churned.
 57.81% of males will be churned.
-Customer Id by Satisfaction Score and Predicted Churn:
+- Customer Id by Satisfaction Score and Predicted Churn:
 As the satisfaction score decreases the customer churn increases signinficantly.
-Customer ID by Age Group and Predicted Churn:
+- Customer ID by Age Group and Predicted Churn:
 Age group of '0-20', 11 customers may churn.
 Age group of '21-40', 52 customers may churn.
 Age group of '41-60', 51 customers may churn.
