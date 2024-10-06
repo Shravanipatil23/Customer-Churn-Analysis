@@ -14,38 +14,36 @@ The goal of this project is to build a machine learning model that predicts whet
 The dataset contains information about online retail customers, including their purchase history, demographics, and engagement metrics. Each record represents a customer, and the target variable is whether the customer has churned.
 
 ### Key Features:
-Customer ID: Unique identifier for each customer.
-Age: The age of the customer.
-Annual Income: The customer’s yearly income.
-Total Spend: The total amount the customer has spent at the online store.
-Number of Purchases: Number of purchases made by the customer.
-Years as Customer: Duration (in years) that the customer has been with the company.
-Promotion Response: Whether the customer responded to promotional offers.
-Satisfaction Score: Customer satisfaction score based on surveys.
-Churn: The target variable indicating whether the customer has churned (1) or not (0).
+- Customer ID: Unique identifier for each customer.
+- Age: The age of the customer.
+- Annual Income: The customer’s yearly income.
+- Total Spend: The total amount the customer has spent at the online store.
+- Number of Purchases: Number of purchases made by the customer.
+- Years as Customer: Duration (in years) that the customer has been with the company.
+- Promotion Response: Whether the customer responded to promotional offers.
+- Satisfaction Score: Customer satisfaction score based on surveys.
+- Churn: The target variable indicating whether the customer has churned (1) or not (0).
 
 ### Approach:
 #### Data Preprocessing:
 
-Handle missing values and clean the dataset.
-Feature engineering, including encoding categorical variables and scaling numerical data.
-Model Building:
+- Handled missing values and clean the dataset.
+- Feature engineering, including encoding categorical variables and scaling numerical data.
+- Model Building:
 
-Develop a Random Forest Classifier to predict customer churn.
+Developed a Random Forest Classifier to predict customer churn.
 Split the data into training and testing sets.
-Evaluate the model using appropriate metrics like accuracy, precision, recall, and F1-score.
-Model Evaluation:
+Evaluated the model using appropriate metrics like accuracy, precision, recall, and F1-score.
+- Model Evaluation:
 
-Analyze feature importance to understand key drivers of churn.
-Tune the model’s hyperparameters for better performance.
-Visualization in Power BI:
+Analyzed feature importance to understand key drivers of churn.
+- Visualization in Power BI:
 
-Export the model’s predictions and import them into Power BI for creating interactive visualizations.
-Visualize churn rates, customer behavior trends, and important features contributing to churn.
-Outcome:
+Exported the model’s predictions and import them into Power BI for creating interactive visualizations.
+Visualized churn rates, customer behavior trends, and important features contributing to churn.
+- Outcome:
+ 
 A machine learning model that predicts customer churn with high accuracy. The business can use the predictions and insights from the analysis to identify at-risk customers and implement targeted retention strategies, reducing customer attrition and improving overall profitability.
-
-This problem statement will help potential collaborators or users understand the purpose of your project and how they can replicate or extend it. Let me know if you'd like to add anything else!
 
 #### Steps followed
 Step 1 : Imported pandas, matplotlib and seaborn. Used pandas to load the dataset into a DataFrame. Data was a csv file. Inspected the data using functions head(), info(), and describe() to understand its structure and get an overview of the features available for analysis.
@@ -110,30 +108,30 @@ Snapshot:
 
 - Total Number of Customers - 200 Satisfaction Score - 3000
 - Predicted Churn By Years joined:
-28.00% customers churned of 6-10 years of joining.
-27.00% customers churned of 1-5 years of joining.
-23.00% customers churned of 11-15 years of joining.
-22.00% customers churned of 16-20 years of joining.
+  - 28.00% customers churned of 6-10 years of joining.
+  - 27.00% customers churned of 1-5 years of joining.
+  - 23.00% customers churned of 11-15 years of joining.
+  - 22.00% customers churned of 16-20 years of joining.
 - Promotion Response:
-361 (36.1%) of customers Unsubscribed.
-338 (33.8%) of customers Responded.
-301 (30.1%) of customers Ignored.
+  - 361 (36.1%) of customers Unsubscribed.
+  - 338 (33.8%) of customers Responded.
+  - 301 (30.1%) of customers Ignored.
 - Predicted Churn by Income Group:
-55 (27.5%) of Predicted Chruned customers belonged to 1.5L to 2L.
-55 (27.5%) of Predicted Chruned customers belonged to 1L to 1.5L.
-50 (25%) of Predicted Chruned customers belonged to 50K to 1L.
-40 (20%) of Predicted Chruned customers belonged to 0 to 50K.
+  - 55 (27.5%) of Predicted Chruned customers belonged to 1.5L to 2L.
+  - 55 (27.5%) of Predicted Chruned customers belonged to 1L to 1.5L.
+  - 50 (25%) of Predicted Chruned customers belonged to 50K to 1L.
+  - 40 (20%) of Predicted Chruned customers belonged to 0 to 50K.
 Customer Id by Gender and Predicted Churn:
-61.76% of females will be churned.
-77.94% of other gender will be churned.
-57.81% of males will be churned.
+  - 61.76% of females will be churned.
+  - 77.94% of other gender will be churned.
+  - 57.81% of males will be churned.
 - Customer Id by Satisfaction Score and Predicted Churn:
-As the satisfaction score decreases the customer churn increases signinficantly.
+  - As the satisfaction score decreases the customer churn increases signinficantly.
 - Customer ID by Age Group and Predicted Churn:
-Age group of '0-20', 11 customers may churn.
-Age group of '21-40', 52 customers may churn.
-Age group of '41-60', 51 customers may churn.
-Age group of '60 and above', 18 customers may churn.
+  - Age group of '0-20', 11 customers may churn.
+  - Age group of '21-40', 52 customers may churn.
+  - Age group of '41-60', 51 customers may churn.
+  - Age group of '60 and above', 18 customers may churn.
 The table gives a brief idea and showcases deep insights of the customers and their information which contributes to stastical prediction of the churned customers in the near future.
 
 #### Page 2
